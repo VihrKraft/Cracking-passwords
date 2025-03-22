@@ -6,9 +6,9 @@ string outputPath = "Секретная папка";
 Directory.CreateDirectory(outputPath);
 string sevenZipPath = @"C:\Program Files\7-Zip\7z.exe";
 string letters = "abcdefghijklmnopqrstuvwxyz";
-for (int i = 0; i<9999; i++) {
+for (int num = 0; num<9999; num++) {
     foreach (char letter in letters) {
-        string pass = i.ToString("D4")+letter;
+        string pass = num.ToString("D4")+letter;
         ProcessStartInfo psi = new ProcessStartInfo {
             FileName = sevenZipPath,
             Arguments = $"x \"{archivePath}\" -o\"{outputPath}\" -p{pass} -y",
