@@ -1,0 +1,24 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BRUTE_FORSE", "BRUTE_FORSE\BRUTE_FORSE.csproj", "{536D6B22-B85E-F623-8E9F-5FDE2611C13E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{536D6B22-B85E-F623-8E9F-5FDE2611C13E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{536D6B22-B85E-F623-8E9F-5FDE2611C13E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{536D6B22-B85E-F623-8E9F-5FDE2611C13E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{536D6B22-B85E-F623-8E9F-5FDE2611C13E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {82666D55-10A6-4B62-A199-6E3455FD7339}
+	EndGlobalSection
+EndGlobal
